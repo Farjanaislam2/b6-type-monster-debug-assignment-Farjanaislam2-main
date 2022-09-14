@@ -62,9 +62,9 @@ body {
   display: none;
 }
 #result {
-  position: fixed;
-  top: 10%; 
-  left: 10%;
+  position:fixed;
+  top: 50%; 
+  left: 50%;
   transform: translate(-50%, -50%);
   height: 250px;
   width: 400px;
@@ -141,11 +141,11 @@ button {
   cursor: pointer;
 }
 
-#histories {
-  display: flex;
-  flex-wrap: wrap;
+ #histories {
+   display: flex;
+  flex-wrap: wrap; 
   justify-content: space-around;
-}
+} 
 
 .card {
   width: 100%;
@@ -186,7 +186,17 @@ button {
     padding: 0 20px;
     width: 100%;
   }
+  #display{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+  }
+  #histories{
+    flex-direction: column;
+  }
   .card {
     flex-direction: column;
   }
+ 
 }
